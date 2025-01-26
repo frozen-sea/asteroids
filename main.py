@@ -36,7 +36,7 @@ def main():
                 exit()
             for s in shots:
                 if a.is_colliding(s):
-                    a.kill()
+                    a.split()
                     s.kill()
                     break
         for o in drawable:
